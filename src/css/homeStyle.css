@@ -37,6 +37,7 @@ h1{
 }
 
 .header__subtittle{
+    text-align: center;
     color: var(--white);
     font-weight: 500;
 }
