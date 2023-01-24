@@ -1,0 +1,34 @@
+*{
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, p, body, button {
+    margin: 0;
+}
+
+::selection{
+    background-color: var(--light-green);
+    color: var(--dark-bg);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #111414; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--orange); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B34D00; 
+  }
