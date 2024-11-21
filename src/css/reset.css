@@ -30,5 +30,5 @@ h1, p, body, button {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #B34D00; 
+    background: #A28EBF; 
   }
